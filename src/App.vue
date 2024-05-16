@@ -157,7 +157,7 @@ export default {
 
     async updateDevicesState(data) {
 
-      const url = 'http://localhost:8080/component/';
+      const url = 'http://urban-gardening-env-1.eba-vz2yug2s.eu-west-2.elasticbeanstalk.com/component/';
 
       try {
         const response = await fetch(url, {
